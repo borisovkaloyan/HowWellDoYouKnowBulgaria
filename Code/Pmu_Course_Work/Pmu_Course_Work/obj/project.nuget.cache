@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "knb+4sgxFFCEeeCQFENkk/l3BUpK4dfWGdgU8qBfXSxoB0Ff+WzpO7mxeJA7sVYhUsVhSBV7LsrVsO+Zp2gWFg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

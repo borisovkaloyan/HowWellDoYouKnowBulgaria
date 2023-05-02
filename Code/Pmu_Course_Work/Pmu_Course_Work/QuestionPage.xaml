@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pmu_Course_Work.QuestionPage">
+
+    <StackLayout x:Name="QLayout">
+        <Frame x:Name="QFrame" BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label x:Name="QLabel" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label x:Name="QText" FontSize="20" HorizontalOptions="Center" Margin=" 20 "></Label>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Button x:Name="Ans1" ClassId="Ans1" Clicked="VerifyAnswer" IsEnabled="False" Grid.Row="0" Grid.Column="0" FontSize="20" HorizontalOptions="Center" Margin=" 20 "></Button>
+            <Button x:Name="Ans2" ClassId="Ans2" Clicked="VerifyAnswer" IsEnabled="False" Grid.Row="1" Grid.Column="0" FontSize="20" HorizontalOptions="Center" Margin=" 20 "></Button>
+            <Button x:Name="Ans3" ClassId="Ans3" Clicked="VerifyAnswer" IsEnabled="False" Grid.Row="2" Grid.Column="0" FontSize="20" HorizontalOptions="Center" Margin=" 20 "></Button>
+            <Button x:Name="Ans4" ClassId="Ans4" Clicked="VerifyAnswer" IsEnabled="False" Grid.Row="3" Grid.Column="0" FontSize="20" HorizontalOptions="Center" Margin=" 20 "></Button>
+
+        </Grid>
+
+    </StackLayout>
+
+</ContentPage>

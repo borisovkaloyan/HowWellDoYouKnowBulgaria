@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "O1kV5F9Kkk3OAEPmnO5qdx6SCmDPpLJOGbwJjIA3J5DpmvGYUzrw2/OcZLkeVxbovaPb595S7spA0JaecAqFtQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.iOS\\Pmu_Course_Work.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

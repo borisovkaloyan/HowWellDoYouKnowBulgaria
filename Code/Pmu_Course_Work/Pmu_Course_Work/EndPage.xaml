@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pmu_Course_Work.EndPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Резултати" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Label x:Name="Congrats" FontSize="20" HorizontalOptions="Center" Margin=" 20 "
+                    Text="Поздравления за завършването на куиза."/>
+            <Label FontSize="20" HorizontalOptions="Center" Margin=" 20 " x:Name="Ranking" Text="Твоят ранг е: "/>
+            <Label FontSize="20" HorizontalOptions="Center" Margin=" 20 " x:Name="Points" Text="Твоите точки са: "/>
+
+            <Button x:Name="ShareBtn" IsEnabled="False" FontSize="20" HorizontalOptions="Center" Margin=" 20 " Clicked="ShareResultsBtn" Text="Сподели резултатите си"></Button>
+            <Button x:Name="NewTryBtn" IsEnabled="False" FontSize="20" HorizontalOptions="Center" Margin=" 20 " Clicked="NewAttempt" Text="Нов опит"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
