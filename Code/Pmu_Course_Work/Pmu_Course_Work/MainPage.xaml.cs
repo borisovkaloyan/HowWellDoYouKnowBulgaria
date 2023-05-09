@@ -34,7 +34,7 @@ namespace Pmu_Course_Work
             Navigation.PushModalAsync(questionPage);
         }
 
-        public async void ExplainApp()
+        private async void ExplainApp()
         {
             var settings = new SpeechOptions()
             {

@@ -70,7 +70,7 @@ namespace Pmu_Course_Work
 
         }
 
-        public async void ExplainRating()
+        private async void ExplainRating()
         {
             var settings = new SpeechOptions()
             {
