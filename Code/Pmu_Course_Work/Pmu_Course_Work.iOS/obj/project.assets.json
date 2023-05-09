@@ -1069,11 +1069,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.iOS\\Pmu_Course_Work.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work.iOS\\Pmu_Course_Work.iOS.csproj",
       "projectName": "Pmu_Course_Work.iOS",
-      "projectPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.iOS\\Pmu_Course_Work.iOS.csproj",
+      "projectPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work.iOS\\Pmu_Course_Work.iOS.csproj",
       "packagesPath": "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1096,8 +1096,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj": {
-              "projectPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj"
+            "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj": {
+              "projectPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj"
             }
           }
         }

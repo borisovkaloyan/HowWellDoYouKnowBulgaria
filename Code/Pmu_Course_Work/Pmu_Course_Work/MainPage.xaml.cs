@@ -19,13 +19,8 @@ namespace Pmu_Course_Work
             ExplainApp();
         }
 
-        private void InitVars()
+        private async void InitVars()
         {
-            Globals.questions.Add(new Question("Колко километра е най-дългата българска река?",
-                                  new List<string>() { "368 километра", "168 километра", "298 километра", "490 километра" }));
-            Globals.questions.Add(new Question("Как се нарича първата българска конституция?",
-                                  new List<string>() { "Търновска", "Стамболовска", "Софийска", "Стефанова" }));
-
             Globals.questions.Shuffle();
 
             Globals.questionId = 0;
@@ -41,16 +36,12 @@ namespace Pmu_Course_Work
 
         public async void ExplainApp()
         {
-            var locales = await TextToSpeech.GetLocalesAsync();
-
-            var locale = locales.FirstOrDefault();
-
             var settings = new SpeechOptions()
             {
-                Locale = locale
+                Locale = Globals.locale
             };
 
-            await TextToSpeech.SpeakAsync("Ще ти бъдат зададени 15 въпроса, за да определим колко добре познаваш България.", settings).ContinueWith((t) =>
+            await TextToSpeech.SpeakAsync("Ще ти бъдат зададени 10 въпроса, за да определим колко добре познаваш България.", settings).ContinueWith((t) =>
             {
                 PageButton.IsEnabled = true;
             }, TaskScheduler.FromCurrentSynchronizationContext());

@@ -5,10 +5,10 @@
 
     <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Колко добре поознаваш България?" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="Колко добре познаваш България?" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <Label FontSize="20" HorizontalOptions="Center" Margin=" 20 "
-               Text="Ще ти бъдат зададени 15 въпроса, за да определим колко добре познаваш България."></Label>
+               Text="Ще ти бъдат зададени 10 въпроса, за да определим колко добре познаваш България."></Label>
         <Button x:Name="PageButton" Clicked="StartQuiz" IsEnabled="False" FontSize="20" HorizontalOptions="Center" Margin=" 20 " Text="Започни теста" ></Button>
     </StackLayout>
 

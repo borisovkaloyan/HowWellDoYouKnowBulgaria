@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "knb+4sgxFFCEeeCQFENkk/l3BUpK4dfWGdgU8qBfXSxoB0Ff+WzpO7mxeJA7sVYhUsVhSBV7LsrVsO+Zp2gWFg==",
+  "dgSpecHash": "3W1km0qAKaBxlybvt3ezFObDoA+ZF0v3QBC3F1Ak1zYDf+NqoilTJoQRywu9A1jG3n0ZKW/IoBb91oOGECKEQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj",
+  "projectFilePath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

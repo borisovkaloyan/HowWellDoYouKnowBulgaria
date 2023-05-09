@@ -50,13 +50,9 @@ namespace Pmu_Course_Work
 
         private async void ExplainQuestion(Question question)
         {
-            var locales = await TextToSpeech.GetLocalesAsync();
-
-            var locale = locales.FirstOrDefault();
-
             var settings = new SpeechOptions()
             {
-                Locale = locale
+                Locale = Globals.locale
             };
 
             await TextToSpeech.SpeakAsync(question.question, settings).ContinueWith((t) =>
@@ -66,13 +62,9 @@ namespace Pmu_Course_Work
 
         private async void ExplainButton(Button button, string text)
         {
-            var locales = await TextToSpeech.GetLocalesAsync();
-
-            var locale = locales.FirstOrDefault();
-
             var settings = new SpeechOptions()
             {
-                Locale = locale
+                Locale = Globals.locale
             };
 
             await TextToSpeech.SpeakAsync(text, settings).ContinueWith((t) =>
@@ -106,7 +98,7 @@ namespace Pmu_Course_Work
 
                 Globals.questionId += 1;
 
-                if ((Globals.questionId < 15) && (Globals.questionId < Globals.questions.Count))
+                if ((Globals.questionId < 10) && (Globals.questionId < Globals.questions.Count))
                 {
                     QuestionPage questionPage = new QuestionPage();                    
 

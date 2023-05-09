@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.Android\\Pmu_Course_Work.Android.csproj": {}
+    "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work.Android\\Pmu_Course_Work.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.Android\\Pmu_Course_Work.Android.csproj": {
+    "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work.Android\\Pmu_Course_Work.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.Android\\Pmu_Course_Work.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work.Android\\Pmu_Course_Work.Android.csproj",
         "projectName": "Pmu_Course_Work.Android",
-        "projectPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.Android\\Pmu_Course_Work.Android.csproj",
+        "projectPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work.Android\\Pmu_Course_Work.Android.csproj",
         "packagesPath": "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.Android\\obj\\",
+        "outputPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj": {
-                "projectPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj"
+              "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj": {
+                "projectPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj"
               }
             }
           }
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj": {
+    "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj",
+        "projectUniqueName": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj",
         "projectName": "Pmu_Course_Work",
-        "projectPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj",
+        "projectPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.csproj",
         "packagesPath": "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work\\obj\\",
+        "outputPath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

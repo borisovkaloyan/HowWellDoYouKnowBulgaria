@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Xamarin.Essentials;
 
 namespace Pmu_Course_Work
 {
@@ -9,6 +10,8 @@ namespace Pmu_Course_Work
         public static List<Question> questions = new List<Question>();
         public static int questionId = 0;
         public static int correctAnswers = 0;
+
+        public static Locale locale;
 
         private static Random rand = new Random();
         public static void Shuffle<T>(this IList<T> list)

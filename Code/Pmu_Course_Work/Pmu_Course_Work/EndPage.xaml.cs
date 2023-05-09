@@ -31,33 +31,27 @@ namespace Pmu_Course_Work
                     break;
                 case 1:
                 case 2:
-                case 3:
                     Rating = "Слаб";
                     break;
+                case 3:
                 case 4:
+                    Rating = "Среден";
+                    break;
                 case 5:
                 case 6:
-                    Rating = "Среден";
+                    Rating = "Добър";
                     break;
                 case 7:
                 case 8:
-                case 9:
-                    Rating = "Добър";
-                    break;
-                case 10:
-                case 11:
-                case 12:
                     Rating = "Много добър";
                     break;
-                case 13:
-                case 14:
-                case 15:
+                case 9:
+                case 10:
                     Rating = "Отличен";
                     break;
                 default:
                     Rating = "Неизвестен";
                     break;
-
             }
 
             Ranking.Text += Rating;
@@ -78,13 +72,9 @@ namespace Pmu_Course_Work
 
         public async void ExplainRating()
         {
-            var locales = await TextToSpeech.GetLocalesAsync();
-
-            var locale = locales.FirstOrDefault();
-
             var settings = new SpeechOptions()
             {
-                Locale = locale
+                Locale = Globals.locale
             };
 
             await TextToSpeech.SpeakAsync(Congrats.Text, settings).ContinueWith((t) =>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WVDYQAjPKIBm3EZpHGY9HRds9zx+1MipTIzSEwcyxEyUa0i+E5bel6/FAbqUbeAOnqr5fPsOZHWqUza5V7+5Cw==",
+  "dgSpecHash": "5hlLBhPVCnUMAceJnLDKSUX2QDUP7qGWMnA7QNroow1GRDGJ8Hs0JAZVS3oDSdbpedo0+K8Xi0CmzAtcB8GzBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\Pmu_Course_Work\\Pmu_Course_Work\\Pmu_Course_Work.Android\\Pmu_Course_Work.Android.csproj",
+  "projectFilePath": "C:\\Users\\Kaloyan Borisov\\Documents\\pmu\\HowWellDoYouKnowBulgaria\\Code\\Pmu_Course_Work\\Pmu_Course_Work.Android\\Pmu_Course_Work.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
