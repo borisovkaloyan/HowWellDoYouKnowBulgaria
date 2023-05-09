@@ -19,7 +19,7 @@ namespace Pmu_Course_Work
             ExplainApp();
         }
 
-        private async void InitVars()
+        private void InitVars()
         {
             Globals.questions.Shuffle();
 

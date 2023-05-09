@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" modified="2023-05-09T18:25:02.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="G8ViXR0OQoecvcaV_cTw" version="21.2.9" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="905" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-8" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Цикъл до прочитане&lt;/span&gt;&lt;br&gt;на всички въпроси" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;align=right;" vertex="1" parent="1">
+          <mxGeometry x="240" y="310" width="430" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-7" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Цикъл до прочитане&lt;/span&gt;&lt;br&gt;на всички отговори" style="rounded=1;whiteSpace=wrap;html=1;arcSize=26;align=right;" vertex="1" parent="1">
+          <mxGeometry x="260" y="401.25" width="270" height="117.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="MainPage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="100" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-1" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-3" value="Start" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="aM9ryv3xv72pqoxQDRHE-1" target="aM9ryv3xv72pqoxQDRHE-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="QuestionPage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="290" y="40" width="100" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
+          <mxGeometry x="45" y="260" width="10" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="Navigation.PushModalAsync(questionPage)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-2" target="aM9ryv3xv72pqoxQDRHE-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="170" y="300" />
+              <mxPoint x="150" y="400" />
+              <mxPoint x="220" y="220" />
+              <mxPoint x="130" y="180" />
+              <mxPoint x="180" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-1" value="Разбъркване на въпроси" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-2" value="Четене на увод" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-4" value="Прочитане на въпрос" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-5" value="Прочитане на отговор" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-9" value="Активиране на бутони" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-10" value="Избор на отговор" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-11" value="EndPage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="670" y="40" width="100" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6Rw25bZs_Yv3dwWG4H6K-11">
+          <mxGeometry x="45" y="690" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-13" value="Navigation.PushModalAsync(endPage)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="6Rw25bZs_Yv3dwWG4H6K-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="730" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="425" y="730" />
+              <mxPoint x="405" y="830" />
+              <mxPoint x="475" y="650" />
+              <mxPoint x="385" y="610" />
+              <mxPoint x="435" y="550" />
+            </Array>
+            <mxPoint x="590" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-14" value="Споделяне на резултат" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-15" value="Navigation.PushModalAsync(endPage)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="6Rw25bZs_Yv3dwWG4H6K-12" target="aM9ryv3xv72pqoxQDRHE-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="740" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="620" y="840" />
+              <mxPoint x="435" y="810" />
+              <mxPoint x="415" y="840" />
+              <mxPoint x="485" y="660" />
+              <mxPoint x="395" y="620" />
+              <mxPoint x="445" y="560" />
+            </Array>
+            <mxPoint x="725" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-17" value="Navigation.PushModalAsync(questionPage)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="850" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="230" y="860" />
+              <mxPoint x="170" y="840" />
+              <mxPoint x="445" y="820" />
+              <mxPoint x="425" y="850" />
+              <mxPoint x="495" y="670" />
+              <mxPoint x="405" y="630" />
+              <mxPoint x="455" y="570" />
+            </Array>
+            <mxPoint x="355" y="850" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Rw25bZs_Yv3dwWG4H6K-18" value="End" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="930.44" as="sourcePoint" />
+            <mxPoint x="20" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

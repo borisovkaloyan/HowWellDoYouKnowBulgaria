@@ -13,7 +13,7 @@ namespace Pmu_Course_Work
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EndPage : ContentPage
     {
-        private string Rating = "yeet";
+        private string Rating = "rate";
         public EndPage()
         {
             InitializeComponent();
@@ -64,7 +64,7 @@ namespace Pmu_Course_Work
             {
                 Text = "Хей, аз получих ранг " + Rating +
                 "! Изкарах " + Globals.correctAnswers.ToString() + " точки. Смяташ ли, че можеш да ме победиш?",
-                Uri = "www.google.com",
+                Uri = "https://github.com/borisovkaloyan/HowWellDoYouKnowBulgaria",
                 Title = "Споделяне на резултат"
             });
 
